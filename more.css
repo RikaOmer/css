@@ -1,0 +1,24 @@
+div{
+    width: 100px;
+    height: 100px;
+}
+div[name="relative"]{
+    background-color: blue;
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    float: left;
+}
+div[name="absolute"]{
+    background-color: red;
+    position: absolute;
+    margin-left: 60px;
+    z-index: 2;
+}
+
+div[name="fixed"]{
+    background-color: green;
+    position: fixed;
+    margin-left: 200px;
+    z-index: 3;
+}
